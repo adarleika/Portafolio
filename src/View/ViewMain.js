@@ -1,6 +1,8 @@
 import React from 'react';
-import Home from '../Components/Home/Home.js'
 import { FullPage, Slide } from 'react-full-page';
+import Home from '../Components/Home/Home.jsx'
+import Navbar from '../Components/Navbar/Navbar.jsx'
+
 
 
 const Main = () => {
@@ -8,6 +10,7 @@ const Main = () => {
         <div>
             <FullPage>
                 <Slide>
+                    <Navbar />
                     <Home />
                 </Slide>
             </FullPage>
