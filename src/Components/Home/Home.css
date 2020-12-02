@@ -5,7 +5,7 @@ body {
 
 .containerMain {
 
-    margin-top: 100px;
+    margin-top: 34px;
     margin-left: 20px;
 }
 
@@ -48,4 +48,20 @@ body {
 
     background: #7E827C;
     color: #CCCCCC;
+}
+
+.img-nav-logo {
+
+    position: fixed;
+
+  }
+
+.containerLogo {
+  
+    display: flex;
+}
+
+.hello-world {
+    
+    margin-top: 30%;
 }

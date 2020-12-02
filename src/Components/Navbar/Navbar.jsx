@@ -21,7 +21,6 @@ const Navbar = () => {
         Contact
       </a>
     </Menu>
-
   );
 };
 
