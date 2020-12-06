@@ -46,3 +46,30 @@
     color: #CCCCCC;
 }
 
+.img-css, 
+    .img-git, 
+        .img-github, 
+            .img-html, 
+                .img-js,
+                    .img-servers,
+                        .img-react, 
+                            .img-bootstrap,
+                                .img-scrum {
+    
+    width: 100px;
+    height: 50px;
+    margin-top: 2%;
+}
+
+.iconImg {
+
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+li {
+    list-style-type: none;
+}
