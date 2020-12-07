@@ -26,7 +26,6 @@
     width: 291px;
     height: 357px;
 
-    display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 10%;
@@ -36,13 +35,13 @@
     border-radius: 11px;
 }
 
+
+
 .containerLovers {
 
     width: 291px;
     height: 357px;
 
-    display: flex;
-    justify-content: center;
     margin: auto;
     margin-top: 75%;
     background-color:  #FFFFFF;
@@ -76,3 +75,84 @@
     overflow:hidden;
 }
 
+.p-card, .p-data {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 2%;
+    color: #404040;
+}
+
+.p-social {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #404040;
+    margin-left: -40%;
+}
+
+.p-tecnology {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 2%;
+    color: #404040;
+}
+
+.p-tecnology-social {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #404040;
+    margin-left: -40%;
+}
+
+.btn-ver {
+
+    width: 113px;
+    height: 28px;
+
+    background: #E9482B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #CCCCCC;
+}
+
+.verTDC {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.verDATA {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.verSOCIAL {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 108%;
+    margin-left: -50%;
+}

@@ -15,14 +15,48 @@ const Proyects = () => {
             </div>
 
             <div className="containerTDC">
-                <img className="img-tdc" src={TDC} alt="TDC" />
+                <div className="titles">
+                    <p className="p-card">CARD VALIDATION</p>
+                    <p className="p-tecnology">HTML5, CSS3, JAVASCRIPT</p>
+                    <img className="img-tdc" src={TDC} alt="TDC" />
+                </div>
+                <div className="verTDC">
+                    <button className="btn-ver">
+                        Ver Proyecto
+                    </button>
+
+                </div>
+
             </div>
+
             <div className="containerLovers">
-                <img className="img-tdc" src={Lovers} alt="Lovers" />
+                <div className="titles">
+                    <p className="p-data">DATA LOVERS</p>
+                    <p className="p-tecnology">HTML5, CSS3, JAVASCRIPT</p>
+                    <img className="img-tdc" src={Lovers} alt="Lovers" />
+                </div>
+                <div className="verDATA">
+                    <button className="btn-ver">
+                        Ver Proyecto
+                    </button>
+
+                </div>
             </div>
+
             <div className="containerSocial">
-                <img className="img-tdc" src={Social} alt="Social" />
+                <div className="titles">
+                    <p className="p-social">SOCIAL NETWORK</p>
+                    <p className="p-tecnology-social">HTML5, CSS3, JAVASCRIPT</p>
+                    <img className="img-tdc" src={Social} alt="Social" />
+                </div>
+                <div className="verSOCIAL">
+                    <button className="btn-ver">
+                        Ver Proyecto
+                    </button>
+
+                </div>
             </div>
+
 
         </div>
 
